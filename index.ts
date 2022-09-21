@@ -7,5 +7,4 @@ export function timeToNewYear(d: Date): string {
     return `months: ${date2.getMonth()}, days: ${date2.getDate()}, hours: ${date2.getUTCHours()}, minutes: ${date2.getMinutes()} to new year`
 }
 
-console.log(timeToNewYear(new Date()));
 
